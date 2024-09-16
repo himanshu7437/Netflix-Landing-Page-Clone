@@ -1,0 +1,85 @@
+# Netflix India Landing Page Clone
+
+This project is a clone of Netflix India's landing page, showcasing the design, layout, and responsiveness inspired by Netflix's actual website. The page is built using **HTML5** and **CSS3** with a focus on clean, maintainable code and responsiveness across different devices.
+
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Folder Structure](#folder-structure)
+- [How to Use](#how-to-use)
+- [Responsive Design](#responsive-design)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- **Responsive Design**: Fully responsive across a wide range of screen sizes.
+- **Email Input with CTA**: Visitors can enter their email to create or restart a membership.
+- **Animated Sections**: Uses videos and images to simulate Netflix's content streaming features.
+- **FAQ Section**: An accordion-like frequently asked questions area that expands on hover.
+- **Footer**: A well-structured footer that links to important resources.
+
+## Technologies Used
+
+- **HTML5**: For structuring content.
+- **CSS3**: For styling and responsiveness.
+  - Google Fonts (Poppins, Martel Sans)
+  - Media queries for mobile responsiveness.
+- **JavaScript (Optional)**: You can later add JS for interaction with the FAQ section or email validation.
+  
+## Folder Structure
+
+The project structure is as follows:
+
+```
+root
+│
+├── assets
+│   └── images
+│       └── logo.svg       # Logo used in the navbar
+│       └── bg.jpg         # Background image for the main hero section
+│   └── videos (Optional)  # Any video assets can be stored here
+│
+├── index.html             # Main HTML file
+├── style.css              # Main CSS file for styling
+└── README.md              # This file
+```
+
+## How to Use
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/netflix-clone.git
+   ```
+2. **Open the project in your code editor**:
+   ```bash
+   cd netflix-clone
+   code .
+   ```
+3. **View the landing page**:
+   Open the `index.html` file in your web browser to view the page.
+
+4. **Live Server (Optional)**:
+   For a more seamless development experience, you can use a live server:
+   - If you're using VSCode, install the "Live Server" extension.
+   - Right-click `index.html` and select "Open with Live Server."
+
+## Responsive Design
+
+The page uses media queries to adapt to smaller screen sizes (e.g., tablets, smartphones). Key breakpoints include:
+
+- **Desktop (1300px and above)**: Full layout with large images, and video backgrounds.
+- **Mobile and Tablet (below 1300px)**: The layout adjusts to a vertical stack, images resize, and input fields/buttons become more mobile-friendly.
+
+## Contributing
+
+Contributions are welcome! Here's how you can contribute:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License. Feel free to use and modify the code for your own purposes.
